@@ -63,7 +63,7 @@ const Header = () => {
               whileHover={{ scale: 1.05 }}
             >
               <img  
-                src="https://photos.google.com/album/AF1QipPCeKKZ3dr8zVHzGbVrP9ObiQ7xSqoot-dGeYVt/photo/AF1QipNmv_HEtdN7IJhj8MAx5EmcvzSTALkCysOYtN-s" 
+                src="https://i.ibb.co/W4DRfYNV/logo2.png" 
                 alt="Geosync Detectors Logo" 
                 className="h-12 w-auto" 
                />

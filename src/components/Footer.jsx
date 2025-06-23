@@ -48,7 +48,7 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-2 mb-6">
                <img  
-                src="logo2.png" 
+                src="https://i.ibb.co/W4DRfYNV/logo2.png" 
                 alt="Geosync Detectors Logo" 
                 className="h-10 w-auto"
                 />
