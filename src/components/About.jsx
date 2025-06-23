@@ -121,7 +121,7 @@ const About = () => {
           >
             <div className="relative">
               <img 
-                src="/img/gold_step.jpg"
+                src="https://www.inventumdetector.fr/wp-content/uploads/2022/04/Gold-step-pro-max-Inventum-Detector-3-1024x680.jpeg"
                 alt="Advanced gold detection equipment in professional setting"
                 className="w-full h-auto rounded-3xl shadow-2xl"
               />

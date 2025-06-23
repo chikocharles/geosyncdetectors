@@ -57,7 +57,7 @@ const Products = () => {
       id: 6,
       name: "Long Range Detectors",
       category: "portable",
-      image: "/img/titan_sensor.jpg",
+      image: "https://m.media-amazon.com/images/I/31jL5ROYFML._SL500_.jpg",
       features: ["Portable Design", "Battery Efficient", "Quick Setup"],
       rating: 4,
       price: "Contact for Price"
