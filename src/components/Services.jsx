@@ -154,7 +154,7 @@ const Services = () => {
               <div className="absolute -inset-4 gradient-blue rounded-3xl opacity-20 blur-xl"></div>
               <div className="relative bg-white rounded-3xl p-8 shadow-2xl">
                 <img 
-                  src="/img/primero.jpg"
+                  src="https://www.nepal.ubuy.com/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFPLVVocW1hbEwuX0FDX1NMMTUwMF8uanBn.jpg"
                   alt="Professional customer service and technical support for gold detectors"
                   className="w-full h-auto rounded-2xl"
                 />

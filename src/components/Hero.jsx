@@ -131,7 +131,7 @@ const Hero = () => {
               
               <div className="relative bg-white rounded-3xl p-8 shadow-2xl">
                 <img 
-                  src="/img/primero.jpg"
+                  src="https://www.nepal.ubuy.com/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFPLVVocW1hbEwuX0FDX1NMMTUwMF8uanBn.jpg"
                   alt="Professional gold detector machine with advanced technology"
                   className="w-full h-auto rounded-2xl shadow-lg"
                 />
