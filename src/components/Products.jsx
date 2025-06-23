@@ -39,7 +39,7 @@ const Products = () => {
       id: 4,
       name: "Treasure Seeker X1",
       category: "standard",
-      image: "img/intuitive_controls.jpg",
+      image: "https://detectorpower.com/cdn/shop/files/hunter168_994x994.jpg?v=1690888864",
       features: ["Easy Operation", "Discrimination Mode", "Adjustable Shaft"],
       rating: 4,
       price: "Contact for Price"
