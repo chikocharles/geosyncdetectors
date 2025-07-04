@@ -79,11 +79,11 @@ const Contact = () => {
   ];
 
   const references = [
-    { name: "Jonas Mhonde", phone: "0772542740" },
-    { name: "Denford Mada", phone: "0773350750" },
-    { name: "Kenneth Ndodza", phone: "0718996576" },
-    { name: "Macdonald Zhuwawo", phone: "0775789499" },
-    { name: "David Chawarika", phone: "0779006473" }
+    { name: "Jo**s Mh**de", phone: "07725**740" },
+    { name: "De**ord Ma*a", phone: "07733**750" },
+    { name: "Ken**th Nd*dz*", phone: "07189**576" },
+    { name: "Ma**onald Zh*w**o", phone: "07757**499" },
+    { name: "Da**d Cha**rika", phone: "07790**473" }
   ];
 
   return (

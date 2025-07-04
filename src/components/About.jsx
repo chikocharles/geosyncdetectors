@@ -24,32 +24,32 @@ const About = () => {
   const happyClients = [
     {
       icon: Smile,
-      name: "Jonas Mhonde",
-      phone: "0772542740",
+      name: "Jo**s Mh**de",
+      phone: "07725**740",
       comment: "Great machines, excellent service!"
     },
     {
       icon: Smile,
-      name: "Denford Mada",
-      phone: "0773350750",
+      name: "De**ord Ma*a",
+      phone: "07733**750",
       comment: "Found gold faster than ever."
     },
     {
       icon: Smile,
-      name: "Kenneth Ndodza",
-      phone: "0718996576",
+      name: "Ken**th Nd*dz*",
+      phone: "07189**576",
       comment: "Highly recommend Geosync!"
     },
      {
       icon: Smile,
-      name: "Macdonald Zhuwawo",
-      phone: "0775789499",
+      name: "Ma**onald Zh*w**o",
+      phone: "07757**499",
       comment: "Top quality detectors."
     },
     {
       icon: Smile,
-      name: "David Chawarika",
-      phone: "0779006473",
+      name: "Da**d Cha**rika",
+      phone: "07790**473",
       comment: "Best investment for mining."
     }
   ];
