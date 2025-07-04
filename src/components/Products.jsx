@@ -10,7 +10,7 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: "GPX 6000 Professional",
+      name: "GPX 6000",
       category: "professional",
       image: "https://th.bing.com/th/id/OIP.k0yXcO8rFwzzMM4c5y53jwHaFR?rs=1&pid=ImgDetMain.jpg",
       features: ["Advanced Pulse Technology", "Waterproof Design", "Deep Detection"],
@@ -19,45 +19,63 @@ const Products = () => {
     },
     {
       id: 2,
-      name: "Metal Detector Pro Series",
+      name: "GPZ 7000",
       category: "standard",
-      image: "https://i5.walmartimages.com/seo/Raindrops-Professional-Underground-Metal-Detector-Adjustable-Detector-Gold-Finder-Searching-without-Battery_1ea398dc-0696-4b08-8b7e-14df67f291d0.527ef206e7bc91ecd9900bd771ea341c.jpeg",
-      features: ["Multi-Frequency", "LCD Display", "Lightweight"],
+      image: "https://www.minelab.com/files/467502.png",
+      features: ["Ultimate depth", "LCD Display", "Ultimate control"],
       rating: 4,
       price: "Contact for Price"
     },
     {
       id: 3,
-      name: "Gold Hunter Elite",
+      name: "GPX 5000",
       category: "professional",
-      image: "https://www.easygetproduct.com/wp-content/uploads/2020/12/1.-Tilswall-Professional-High-Accuracy-Metal-Detectors-1024x1024.jpg",
+      image: "https://www.minelab.com/__files/i/467500/GPX-5000_ProductImage.png",
       features: ["High Sensitivity", "Ground Balance", "Audio Alerts"],
       rating: 5,
       price: "Contact for Price"
     },
     {
       id: 4,
-      name: "Treasure Seeker X1",
+      name: "SDC 2300",
       category: "standard",
-      image: "https://detectorpower.com/cdn/shop/files/hunter168_994x994.jpg?v=1690888864",
+      image: "https://www.minelab.com/files/467509.png",
       features: ["Easy Operation", "Discrimination Mode", "Adjustable Shaft"],
       rating: 4,
       price: "Contact for Price"
     },
     {
       id: 5,
-      name: "Deep Search Pro",
+      name: "Gold Monster 1000",
       category: "professional",
-      image: "https://storage.googleapis.com/hostinger-horizons-assets-prod/b348fedb-86b6-4765-b4de-28c2741738f5/2e486b902651f9149f1c0cd84ea1eed0.jpg",
+      image: "https://tse3.mm.bing.net/th/id/OIP.FCODKBQQdSwlQrZHRqqE4QHaEx?rs=1&pid=ImgDetMain&o=7&rm=3",
       features: ["Long Range Detection", "3D Imaging", "GPS Integration"],
       rating: 5,
       price: "Contact for Price"
     },
     {
       id: 6,
-      name: "Long Range Detectors",
+      name: "Titan GER500",
       category: "portable",
-      image: "https://m.media-amazon.com/images/I/31jL5ROYFML._SL500_.jpg",
+      image: "https://gerdetect.net/wp-content/uploads/2023/01/TITAN-500-SMART-DETECTOR-800x800.png",
+      features: ["Portable Design", "Battery Efficient", "Quick Setup"],
+      rating: 4,
+      price: "Contact for Price"
+    },
+    {
+      id: 7,
+      name: "Titan  GER1000",
+      category: "portable",
+      image: "https://gergermany.de/assets/img/assets/home/titan-ger-1000-homepage.png",
+      features: ["Portable Design", "Battery Efficient", "Quick Setup"],
+      rating: 4,
+      price: "Contact for Price"
+    },
+    {
+      id: 8,
+      name: "Primero",
+      category: "portable",
+      image: "https://www.inventumdetector.com/wp-content/uploads/2019/07/Produit-4-1.jpg",
       features: ["Portable Design", "Battery Efficient", "Quick Setup"],
       rating: 4,
       price: "Contact for Price"

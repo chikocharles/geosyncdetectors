@@ -213,47 +213,7 @@ const About = () => {
 
 
         {/* Key Personnel Section */}
-        <motion.div
-          className="bg-white rounded-3xl p-12 shadow-2xl"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-4">Key Personnel</h3>
-            <p className="text-gray-600">Meet the leadership driving Geosync Detectors forward</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <motion.div
-              className="text-center"
-              initial={{ opacity: 0, scale: 0.5 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              viewport={{ once: true }}
-            >
-              <div className="w-24 h-24 rounded-full gradient-gold flex items-center justify-center mx-auto mb-4">
-                <Users className="h-12 w-12 text-white" />
-              </div>
-              <div className="text-xl font-bold text-gray-800 mb-1">Shephard Sigauke</div>
-              <div className="text-gray-600">Director</div>
-            </motion.div>
-            <motion.div
-              className="text-center"
-              initial={{ opacity: 0, scale: 0.5 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              viewport={{ once: true }}
-            >
-              <div className="w-24 h-24 rounded-full gradient-blue flex items-center justify-center mx-auto mb-4">
-                <Users className="h-12 w-12 text-white" />
-              </div>
-              <div className="text-xl font-bold text-gray-800 mb-1">Sibusisiwe M. Sigauke</div>
-              <div className="text-gray-600">Director</div>
-            </motion.div>
-          </div>
-        </motion.div>
+        
 
       </div>
     </section>
