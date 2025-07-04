@@ -219,5 +219,5 @@ export default defineConfig({
 			]
 		}
 	},
-	base: "/geosyncdetectors",
+	base: "/",
 });
