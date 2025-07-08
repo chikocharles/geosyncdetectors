@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Search, Award, Users, Globe } from 'lucide-react';
+import { ArrowRight, Search, Award, Users, Globe, Shield, Zap, Star } from 'lucide-react';
+//import { Search, Zap, Shield, Award, ArrowRight, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -166,7 +167,7 @@ const Hero = () => {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-20 left-1/2 transform -translate-x-1/2"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
@@ -174,8 +175,12 @@ const Hero = () => {
           <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
         </div>
       </motion.div>
+       
+       
+
     </section>
   );
+  
 };
 
 export default Hero;

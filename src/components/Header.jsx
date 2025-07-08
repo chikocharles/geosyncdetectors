@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -75,7 +76,13 @@ const Header = () => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              {['Home', 'About', 'Products', 'Services', 'Contact'].map((item) => (
+              <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</Link>
+              <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</Link>
+              <Link to="/products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Products</Link>
+              <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Services</Link>
+              <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contact</Link>
+            
+              {[/*'Home', 'About', 'Products', 'Services', 'Contact'*/].map((item) => (
                 <motion.button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}

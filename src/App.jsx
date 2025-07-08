@@ -8,20 +8,30 @@ import Services from '@/components/Services';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import CustomCursor from '@/components/CustomCursor';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="min-h-screen bg-background">
       <CustomCursor />
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Products />
-        <Services />
-        <Contact />
-      </main>
-      <Footer />
+      <Router>
+        <Header />
+          <Routes>
+              
+                <Route path="/" element={<Hero />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/products" element={<Products />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/contact" element={<Contact />} />
+                
+              
+              
+
+        </Routes>
+        <Footer />
+      </Router>
+      
+      
       <Toaster />
     </div>
   );
